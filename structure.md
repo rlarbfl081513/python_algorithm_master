@@ -1,3 +1,110 @@
+# 구조 2
+algorithm
+ ┣ Graph
+ ┃ ┣ 1_Basic_Navigation
+ ┃ ┃ ┣ BFS_DFS.md
+ ┃ ┃ ┗ Examples/
+ ┃ ┣ 2_MST
+ ┃ ┃ ┣ Kruskal.md
+ ┃ ┃ ┗ Prim.md
+ ┃ ┣ 3_Shortest_Path
+ ┃ ┃ ┣ Dijkstra.md
+ ┃ ┃ ┣ Bellman-Ford.md
+ ┃ ┃ ┗ Floyd-Warshall.md
+ ┃ ┣ 4_Network_Flow
+ ┃ ┃ ┣ Ford-Fulkerson.md
+ ┃ ┃ ┗ Edmonds-Karp.md
+ ┃ ┗ 5_Tree_Graph
+ ┃    ┣ Topological_Sort.md
+ ┃    ┗ Union-Find.md
+
+ ┣ DP_DynamicProgramming
+ ┃ ┣ 1_Basic
+ ┃ ┃ ┣ Fibonacci.md
+ ┃ ┃ ┗ CoinChange.md
+ ┃ ┣ 2_Classic
+ ┃ ┃ ┣ LIS.md
+ ┃ ┃ ┣ LCS.md
+ ┃ ┃ ┣ Knapsack.md
+ ┃ ┗ 3_Advanced
+ ┃    ┣ Bitmask_DP.md
+ ┃    ┗ Tree_DP.md
+
+ ┣ Greedy
+ ┃ ┣ ActivitySelection.md
+ ┃ ┣ IntervalScheduling.md
+ ┃ ┗ HuffmanCoding.md
+
+ ┣ Sort
+ ┃ ┣ Bubble.md
+ ┃ ┣ Selection.md
+ ┃ ┣ Insertion.md
+ ┃ ┣ Merge.md
+ ┃ ┣ Quick.md
+ ┃ ┣ HeapSort.md
+ ┃ ┗ Counting_Radix.md
+
+ ┣ Search
+ ┃ ┣ LinearSearch.md
+ ┃ ┣ BinarySearch.md
+ ┃ ┣ ParametricSearch.md
+ ┃ ┗ TernarySearch.md
+
+ ┣ Tree
+ ┃ ┣ BinaryTree.md
+ ┃ ┣ BST.md
+ ┃ ┣ SegmentTree.md
+ ┃ ┣ FenwickTree.md
+ ┃ ┗ Trie.md
+
+ ┣ Math
+ ┃ ┣ Prime_Sieve.md
+ ┃ ┣ GCD_LCM.md
+ ┃ ┣ Modular_Arithmetic.md
+ ┃ ┣ Combination_Permutation.md
+ ┃ ┗ MatrixExponentiation.md
+
+ ┣ Backtracking
+ ┃ ┣ NQueen.md
+ ┃ ┣ Sudoku.md
+ ┃ ┗ Subset_Permutation.md
+
+ ┣ DivideAndConquer
+ ┃ ┣ MergeSort.md
+ ┃ ┣ QuickSort.md
+ ┃ ┗ MatrixChain.md
+
+ ┣ List_&_String
+ ┃ ┣ List
+ ┃ ┃ ┣ SlidingWindow.md
+ ┃ ┃ ┗ TwoPointers.md
+ ┃ ┗ String
+ ┃    ┣ KMP.md
+ ┃    ┣ RabinKarp.md
+ ┃    ┗ Manacher.md
+
+ ┣ Queue_Stack
+ ┃ ┣ Stack.md
+ ┃ ┣ Queue.md
+ ┃ ┣ Deque.md
+ ┃ ┗ PriorityQueue.md
+
+ ┣ Heap
+ ┃ ┣ MinHeap.md
+ ┃ ┣ MaxHeap.md
+ ┃ ┗ Heapq_Usage.md
+
+ ┣ BruteForce
+ ┃ ┣ ExhaustiveSearch.md
+ ┃ ┗ Bitmask.md
+
+ ┗ Example_Problems
+    ┣ BOJ/
+    ┣ SWEA/
+    ┗ Programmers/
+
+
+# 구조 1
 📌 1. 재귀 (Recursive)
 - 기본 구조 및 개념
 - 순열 / 조합 (next, backtracking으로 연결됨)

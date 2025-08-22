@@ -1,4 +1,34 @@
+# 내 코드
+def blackperson(li):
+    global ah,aw,a_arr,bh,bw,b_arr
 
+    for i in b_arr:
+        for j in i:
+            li[j] = 1
+
+    a = 0 # 일반
+    b = 0 # 블랙
+
+    for y in a_arr:
+        for x in y:
+            if li[x] == 0:
+                a += 1
+            elif li[x] == 1:
+                b += 1
+    return a,b
+
+
+for tc in range(1,int(input())+1):
+    ah, aw = map(int, input().split())
+    a_arr = [list(map(int, input().split())) for _ in range(ah)]
+    bh, bw = map(int,input().split())
+    b_arr = [list(map(int, input().split())) for _ in range(bh)]
+
+    black = [0]*100001
+    person, black_p = blackperson(black)
+
+    print(f'#{tc} 블랙:{black_p}명 ,일반:{person}명')
+    
 
 # 7:33
 # 블랙리스트 정보를 가지고 아파트에 일반시민과 블랙리스트 몇명인지 봐라
