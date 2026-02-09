@@ -57,7 +57,7 @@ for tc in range(1,1+t):
 
 
 
-## 2번 방식. 더 짧은 방식 _최상인쓰 코드
+## 2번 방식. 더 짧은 방식 _코드
 T = int(input())
 for tc in range(1, T + 1):
     x1, y1, x2, y2 = map(int, input().split())
