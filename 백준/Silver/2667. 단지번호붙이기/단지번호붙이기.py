@@ -1,6 +1,6 @@
 
+
 def home(x,y):
-    global li,total,box
 
     go = [[x,y]]
     cnt = 0
@@ -24,7 +24,7 @@ def home(x,y):
 
 
 n = int(input())
-li = [list(map(str, input())) for _ in range(n)]
+li = [list(input()) for _ in range(n)]
 to_li =[]
 
 
